@@ -1,6 +1,7 @@
 import csv
 from selenium import webdriver
 from selenium.common.exceptions import NoSuchElementException, TimeoutException
+
 import time
 
 chrome_options = webdriver.ChromeOptions()

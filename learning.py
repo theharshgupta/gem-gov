@@ -14,7 +14,7 @@ with open('data.csv') as csvfile:
             print(file)
             data = []
             # normal opening the PDF
-            pdf = pdfplumber.open(file)
+                pdf = pdfplumber.open(file)
             # Setting the page number to '0'
             page = pdf.pages[0]
             # Extracting all the tables on the page selected (i.e 0)
